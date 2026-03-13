@@ -23,7 +23,7 @@
 // saudacao();
 // somar(9,6);
 
-function somarNumeros(){
+function exercicio1(){
     let soma = 0;
     let continuar = true;
 
@@ -38,7 +38,6 @@ function somarNumeros(){
 
         }else{
             soma += numero;
-            console.log(soma);
         }
 
         continuar = confirm("Deseja adicionar mais um número?");
@@ -48,4 +47,36 @@ function somarNumeros(){
 
 }
 
-somarNumeros();
+//exercicio1);
+
+function exercicio2(){
+
+    console.log("Contagem regressiva para o lançamento!")
+    for(let i = 10; i >=0; i-- ) {
+    console.log(i);
+
+}
+{
+
+    console.log("Lançamento realizado!")
+
+}
+}
+
+//exercicio2);
+
+function exercicio3(){
+    
+    console.log("Irei te ajudar no balanço anual da sua empresa!")
+    let bruto=0;
+
+    for(let i = 1; i >=12; i++ ) {
+    bruto = parseFloat(prompt("Qual é o ganho bruto que você teve no mês " + i));
+
+
+
+}
+    
+}
+
+//exercicio3);
