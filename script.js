@@ -1,4 +1,4 @@
-    function exercicio1(){
+    function exercicio_1(){
      let soma = 0;
      let continuar = true;
 
@@ -22,9 +22,9 @@
 
 }
 
-//exercicio1();
+//exercicio_1();
 
-function exercicio2(){
+function exercicio_2(){
 
     console.log("Contagem regressiva para o lançamento!")
     for(let i = 10; i >=0; i-- ) {
@@ -38,9 +38,9 @@ function exercicio2(){
 }
 }
 
-// exercicio2();
+// exercicio_2();
 
-function exercicio3(){
+function exercicio_3(){
     
     function calculo_mensal(){
     
@@ -89,9 +89,9 @@ function exercicio3(){
 
 }
 
-// exercicio3();
+// exercicio_3();
 
-function exercicio4(){
+function exercicio_4(){
 
     let numeros = [];
     let aux = 0 ;
@@ -133,10 +133,10 @@ function exercicio4(){
 
     }
 
-// exercicio4();
+// exercicio_4();
 
 
-function exercicio5(){
+function exercicio_5(){
 
     let numero = Number(prompt("Me diga um número inteiro "));
 
@@ -161,7 +161,13 @@ function exercicio5(){
 
 }
 
-exercicio5();
+// exercicio_5();
+
+function exercicio_6(){
+
+}
+
+exercicio_6();
 
 
 
