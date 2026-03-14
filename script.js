@@ -256,4 +256,45 @@ function exercicio_8(){
 
 }
 
-exercicio_8();
+// exercicio_8();
+
+function exercicio_9(){
+
+    let numeros = [];
+    let aux = 0 ;
+
+    for(let i=0; i<=1; i++){
+
+        let numero = Number (prompt( "Digite um número inteiro " ));
+    
+       while(!Number.isInteger(numero)){
+        numero = Number (prompt( "Digite um número inteiro válido! " ));
+    }
+
+        numeros.push(numero);
+    }
+
+    console.log("Os números são " +  numeros.join (", "));
+
+    for(let i=0; i< numeros.length - 1; i++){
+
+                      if (numeros[i] < numeros[i+1]){
+
+                       aux = numeros[i];
+                       numeros[i] = numeros[i+1];
+                       numeros[i+1] = aux;
+
+                  }
+             }
+
+
+    console.log("Os números em ordem é " +  numeros.join (", "));
+    alert("Os números em sequência é " + numeros.join (", "))
+    
+
+   
+
+
+}
+
+exercicio_9();
