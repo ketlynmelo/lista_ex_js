@@ -132,7 +132,36 @@ function exercicio4(){
      alert("Números digitados: " + numeros.join(", "));
 
     }
-  
 
-exercicio4();
+// exercicio4();
+
+
+function exercicio5(){
+
+    let numero = Number(prompt("Me diga um número inteiro "));
+
+    while(!Number.isInteger(numero)){
+         numero = Number(prompt("Digite um número inteiro válido!"));
+    }
+
+//verificando se é par ou impar
+    if(numero %2 ===0 ){
+    //par
+        numero=numero+1;
+        console.log(numero + " agora é ímpar");
+
+    } else {
+        //impar
+        numero=numero-1;
+        console.log(numero + " agora é par");
+
+    }
+
+    
+
+}
+
+exercicio5();
+
+
 
